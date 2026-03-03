@@ -198,7 +198,7 @@ class GoogleScholarResearch(object):
                 )
                 next_page.click()
                 print("="*10, f"Next page({page+1}/{self.page_num})", "="*10)
-                time.sleep(1)
+                time.sleep(5)
             except:
                 print(f"No found next page button, finish.")
                 break
